@@ -70,9 +70,9 @@ class App extends Component {
         )
       ).then(balances => {
         // Store accounts in state
-        var pplNames = ["Larry", "Bill", "Bonnie", "Nelson"];
+        var pplNames = ["Master", "Larry", "Bill", "Bonnie", "Nelson"];
         this.setState({
-          accounts: accounts.slice(1,5).map((account, idx) => {
+          accounts: accounts.slice(0,5).map((account, idx) => {
             return {
               name: pplNames[idx],
               number: account, 
