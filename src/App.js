@@ -76,8 +76,8 @@ class App extends Component {
             return {
               name: pplNames[idx],
               number: account, 
-              nvcBalance: this.state.web3.fromWei(balances[idx] / (1000 * this.state.nvcPrice), "ether" ),
-              ethBalance: this.state.web3.fromWei(this.state.web3.eth.getBalance(account).toString(), "ether")
+              nvcBalance: this.state.web3.fromWei(balances[idx] / (this.state.nvcPrice), "ether" ),
+              ethBalance: Math.round(this.state.web3.fromWei(this.state.web3.eth.getBalance(account).toString(), "ether"))
             }
           })
         });

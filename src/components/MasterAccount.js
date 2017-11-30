@@ -5,7 +5,7 @@ class MasterAccount extends Component {
   render() {
     return (
         <div className="MasterAccount" >
-          <h2> MasterAccount </h2>
+          <h2> New Venture Challenge Account </h2>
           <dl>
             <dt>Account number</dt>
             <dd>{this.props.account.number}</dd>
