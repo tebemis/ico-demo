@@ -1,6 +1,6 @@
 # ICO DEMO
 
-Playing around with [truffle framework](http://truffleframework.com/) and [zeppelin smart-contracts library](https://github.com/OpenZeppelin/zeppelin-solidity) to build an Initial Coin Offering demo. Thanks to @gustavoguimaraes for his excellent [blog post](https://blog.zeppelin.solutions/how-to-create-token-and-initial-coin-offering-contracts-using-truffle-openzeppelin-1b7a5dae99b6) that started it all.
+Playing around with [truffle framework](http://truffleframework.com/) and [zeppelin smart-contracts library](https://github.com/OpenZeppelin/zeppelin-solidity) to build an Initial Coin Offering demo. Thanks to [@gustavoguimaraes](https://github.com/gustavoguimaraes) for his excellent [blog post](https://blog.zeppelin.solutions/how-to-create-token-and-initial-coin-offering-contracts-using-truffle-openzeppelin-1b7a5dae99b6) that started it all.
 
 In order to run this web app successfully you'll have to run the following commands
 
